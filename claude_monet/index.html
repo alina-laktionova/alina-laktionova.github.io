@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" name="viewport" content="width=device-width">
+    <title>Claude Monet</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="styles/monet_styles.css">
+</head>
+<body>
+<header class="main-header">
+    <h1 class="logo-title">Oscar-Claude Monet</h1>
+</header>
+<main class="main-content">
+    <div class="detail-container">
+        <div class="detail-frame">
+            <img class="detail-image" src="images/impression.jpg">
+            <span class="detail-title">This painting gave the name "impressionism"</span>
+            <button id="hide-button" onclick="hideDetails()">&#215;</button>
+        </div>
+    </div>
+    <ul class="thumbnails-list">
+        <li class="thumbnails-item">
+            <a href="images/woman_garden.jpg"
+               data-detailed-text="Jeanne-Marguerite Lecadre in the Garden">
+                <img class="thumbnails-image" src="images/woman_garden.jpg">
+                <span class="thumbnails-title">Woman in the Garden</span>
+            </a>
+        </li>
+        <li class="thumbnails-item">
+            <a href="images/impression.jpg"
+               data-detailed-text="This painting gave the name &quot;impressionism&quot;">
+                <img class="thumbnails-image" src="images/impression.jpg">
+                <span class="thumbnails-title">Impression, Sunrise</span>
+            </a>
+        </li>
+        <li class="thumbnails-item">
+            <a href="images/bridge.jpg"
+               data-detailed-text="Water lily pond in Monet's garden in Giverny">
+                <img class="thumbnails-image" src="images/bridge.jpg">
+                <span class="thumbnails-title">The Water Lily Pond</span>
+            </a>
+        </li>
+        <li class="thumbnails-item">
+            <a href="images/argenteuil.jpg"
+               data-detailed-text="Red boats in Argenteuil">
+                <img class="thumbnails-image" src="images/argenteuil.jpg">
+                <span class="thumbnails-title">Red Boats, Argenteuil</span>
+            </a>
+        </li>
+        <li class="thumbnails-item">
+            <a href="images/arm_seine.jpg"
+               data-detailed-text="Arm of the Seine near Vetheuil">
+                <img class="thumbnails-image" src="images/arm_seine.jpg">
+                <span class="thumbnails-title">Arm of the Seine</span>
+            </a>
+        </li>
+        <li class="thumbnails-item">
+            <a href="images/cliffs_sailboats.jpg"
+               data-detailed-text="Cliffs and sailboats at Pourville">
+                <img class="thumbnails-image" src="images/cliffs_sailboats.jpg">
+                <span class="thumbnails-title">Cliffs and Sailboats</span>
+            </a>
+        </li>
+        <li class="thumbnails-item">
+            <a href="images/field_tulips.jpg"
+               data-detailed-text="The mill in tulip field in Holland">
+                <img class="thumbnails-image" src="images/field_tulips.jpg">
+                <span class="thumbnails-title">Tulip Field in Holland</span>
+            </a>
+        </li>
+        <li class="thumbnails-item">
+            <a href="images/fishermans_cottage.jpeg"
+               data-detailed-text="Fisherman's cottage at Varengeville">
+                <img class="thumbnails-image" src="images/fishermans_cottage.jpeg">
+                <span class="thumbnails-title">Fisherman's Cottage</span>
+            </a>
+        </li>
+        <li class="thumbnails-item">
+            <a href="images/flowered_garden.jpg"
+               data-detailed-text="Flowered Garden at Giverny">
+                <img class="thumbnails-image" src="images/flowered_garden.jpg">
+                <span class="thumbnails-title">Flowered Garden</span>
+            </a>
+        </li>
+        <li class="thumbnails-item">
+            <a href="images/garden_argenteuil.jpg"
+               data-detailed-text="The Artist's Garden in Argenteuil">
+                <img class="thumbnails-image" src="images/garden_argenteuil.jpg">
+                <span class="thumbnails-title">The Garden of Monet</span>
+            </a>
+        </li>
+        <li class="thumbnails-item">
+            <a href="images/pathway.jpg"
+               data-detailed-text="Garden Path at Giverny">
+                <img class="thumbnails-image" src="images/pathway.jpg">
+                <span class="thumbnails-title">Pathway in Garden</span>
+            </a>
+        </li>
+        <li class="thumbnails-item">
+            <a href="images/poppies.jpg"
+               data-detailed-text="The Poppy Field near Argenteuil">
+                <img class="thumbnails-image" src="images/poppies.jpg">
+                <span class="thumbnails-title">Field of Poppies</span>
+            </a>
+        </li>
+        <li class="thumbnails-item">
+            <a href="images/red_lilies.jpg"
+               data-detailed-text="Red Water Lilies">
+                <img class="thumbnails-image" src="images/red_lilies.jpg">
+                <span class="thumbnails-title">Red Water Lilies</span>
+            </a>
+        </li>
+        <li class="thumbnails-item">
+            <a href="images/rowboat_seine.jpg"
+               data-detailed-text="Rowboat on the Seine at Jeufosse">
+                <img class="thumbnails-image" src="images/rowboat_seine.jpg">
+                <span class="thumbnails-title">Rowboat on the Seine</span>
+            </a>
+        </li>
+        <li class="thumbnails-item">
+            <a href="images/thames_westminster.jpg"
+               data-detailed-text="The Thames below Westminster">
+                <img class="thumbnails-image" src="images/thames_westminster.jpg">
+                <span class="thumbnails-title">Thames in Westminster</span>
+            </a>
+        </li>
+        <li class="thumbnails-item">
+            <a href="images/twilight_venice.jpg"
+               data-detailed-text="San Giorgio Maggiore by Twilight">
+                <img class="thumbnails-image" src="images/twilight_venice.jpg">
+                <span class="thumbnails-title">Twilight in Venice</span>
+            </a>
+        </li>
+    </ul>
+</main>
+<script src="scripts/index.js"></script>
+</body>
+</html>
