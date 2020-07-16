@@ -106,6 +106,8 @@ function getRandomNumber(minValue, maxValue) {
 function resetAll() {
     resetMenu();
     arrString.textContent = '';
+    ar = [];
+    arModified = [];
 }
 function resetMenu() {
     resetSub();
