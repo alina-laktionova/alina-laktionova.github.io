@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Arrays operations</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    <button onclick="createRandomArray()" class="createArray">Create random array</button>
+    <label id="arrString"></label>
+
+    <div class="menu">
+        <div class="adding operation">
+            <button onclick="adding()">Adding</button>
+            <div class="addingSubMenu subMenu" hidden>
+                <button onclick="addingEnd()">Adding at end</button>
+                <button onclick="addingBegin()">Adding at beginning</button>
+                <button onclick="addingMiddle()">Adding at the middle</button>
+            </div>
+
+        </div>
+        <div class="updating operation">
+            <button onclick="updating()">Updating</button>
+        </div>
+        <div class="deleting operation">
+            <button onclick="deleting()">Deleting</button>
+            <div class="deletingSubMenu subMenu" hidden>
+                <button onclick="deletingEnd()">Deleting from end</button>
+                <button onclick="deletingBegin()">Deleting from beginning</button>
+                <button onclick="deletingMiddle()">Deleting from middle</button>
+            </div>
+        </div>
+        <div class="slicing operation">
+            <button onclick="slicing()">Slicing</button>
+        </div>
+        <div class="sorting operation">
+            <button onclick="sorting()">Sorting</button>
+            <div class="sortingSubMenu subMenu" hidden>
+                <button onclick="sortAsc()">Sorting in the ascending order</button>
+                <button onclick="sortDesc()">Sorting in the descending order</button>
+            </div>
+        </div>
+        <div class="iterations operation">
+            <button onclick="iterations()">Iterations</button>
+            <div class="iterationsSubMenu subMenu" hidden>
+                <button onclick="sumAll()">Sum of all numbers</button>
+                <button onclick="numbersMore()">Showing numbers that more than a given number</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="inputs">
+        <label class="report"></label>
+        <input id="input1" hidden>
+        <input id="input2" hidden type="number" min="0">
+        <input id="input3" hidden type="number" min="0">
+    </div>
+    <label id="result"></label>
+    <button id="buttonRes" onclick="printResult()" hidden>Get result</button>
+    <button id="reset" onclick="resetAll()">Reset</button>
+
+    <script src="scripts/app.js"></script>
+</body>
+</html>
