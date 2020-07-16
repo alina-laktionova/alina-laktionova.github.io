@@ -41,6 +41,7 @@ input {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    align-items: center;
 }
 #buttonRes {
     margin-top: 3vw;
